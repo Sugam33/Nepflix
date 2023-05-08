@@ -1,9 +1,10 @@
-import './App.css';
+import './App.scss';
+import Home from './Homepage/Home';
 
 function App() {
   return (
     <div>
-     <h1>Nepflix test app fffsssss</h1>
+     <Home /> 
     </div>
   );
 }
