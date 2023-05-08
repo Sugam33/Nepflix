@@ -1,13 +1,14 @@
 import React from 'react'
 import "./home.scss"
 import Navbar from '../components/navbar/Navbar'
-import logo from '../images/valogroup.jpg'
+import Featured from '../components/featured/Featured'
+
 
 const Home = () =>  {
   return (
     <div className='home'>
         <Navbar /> 
-        <img src={logo} alt=''></img>
+        <Featured /> 
     </div>
   )
 }
