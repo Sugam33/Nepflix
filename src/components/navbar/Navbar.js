@@ -21,7 +21,13 @@ const Navbar = () => {
         <span>KID</span>
         <NotificationsIcon className='icon'/>
          <AccountBoxIcon className='icon'/> 
+         <div className="profile">
          <ArrowDropDownIcon className='icon'/>
+         <div className="options">
+         <span>Settings</span>
+         <span>Logout</span>
+         </div>
+         </div>
       </div>
       </div>
     </div>
