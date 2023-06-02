@@ -1,5 +1,7 @@
+
 import './App.scss';
-import Home from './Homepage/Home';
+import Home from './pages/Homepage/Home';
+import Watch from './pages/watch/Watch';
 
 function App() {
   return (
